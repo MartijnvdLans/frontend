@@ -72,13 +72,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** responsive
 
-**Je opdracht:** https://www.nike.com/nl/
+**Je opdracht:** coolblue.nl
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/home.jpg" width="375px" alt="Homepagina Nike">
+<img src="images/home.gif" width="375px" alt="Homepagina Nike">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/detail.jpg" width="375px" alt="Detail pagina Nike">
-<img src="images/detail_two.jpg" width="375px" alt="Detail pagina Nike">
+<img src="images/detail.gif" width="375px" alt="Detail pagina Nike">
