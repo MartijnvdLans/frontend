@@ -1,0 +1,81 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;
+    margin: 0;
+    padding:0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header nav {
+    display: flex;
+    flex-basis: 100%;
+    background-color: #0090e3;
+    background-size: 100px;
+    background-position: center;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px 10px;
+}
+
+header li {
+    padding: .5em;
+}
+
+header nav ul:first-of-type li:nth-of-type(2){
+    position: absolute;
+    width: 75px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul:first-of-type li:nth-of-type(2) img{
+    width: 75px;
+}
+
+header img {
+    width: 25px;
+}
+
+header img:{
+    display: flex;
+    background: red;
+}
+
+header form {
+    width: 100%;
+    background: #f2f7fc;
+    padding:5px;
+    display: flex;
+}
+
+header input {
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #aaa;
+    border-right: 0;
+    border-radius: 5px 0px 0px 5px;
+    flex-grow: 3;
+}
+
+header button {
+    background: #0090e3;
+    outline: 0;
+    border: 1px solid #aaa;
+    border-radius: 0 5px 5px 0;
+    padding: 5px 10px;
+}
+
