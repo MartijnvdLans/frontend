@@ -16,7 +16,8 @@ header {
     flex-wrap: wrap;
     position: fixed;
     height: 6em;
-    width: 100%;;
+    width: 100%;
+    z-index: 1;
 }
 
 header nav {
@@ -61,9 +62,8 @@ header img {
     width: 25px;
 }
 
-header img:{
+header img{
     display: flex;
-    background: red;
 }
 
 header form {
@@ -94,21 +94,21 @@ main {
     padding-top: 6em;
 }
 
-main nav:nth-of-type(1) {
+main nav:nth-of-type(1), main nav:nth-of-type(4) {
     width: 100%;
-    overflow-x: auto;
+    overflow-x: hidden;
     width: 95vw;
     margin: 0 auto;
 }
 
-main nav:nth-of-type(1) ul {
+main nav:nth-of-type(1) ul, main nav:nth-of-type(4) ul {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     padding: .3em 0;
 }
 
-main nav:nth-of-type(1) li {
+main nav:nth-of-type(1) li, main nav:nth-of-type(4) li {
     width: 100%;
     flex-basis: 100%;
     flex-shrink: 0;
@@ -133,7 +133,7 @@ main nav:nth-of-type(1) strong {
     color: #f60;
 }
 
-main a:first-of-type img {
+main .banner img {
     width: 100%;
 }
 
@@ -162,10 +162,10 @@ main nav:nth-of-type(2) ul {
     justify-content: space-around;
 }
 
-main nav:nth-of-type(2) h2 {
+main nav h2 {
     flex-basis: 100%;
     font-size: 1.3em;
-    padding: .2em .5em;
+    padding: .5em .5em;
     font-size: 1em;
 }
 
@@ -182,7 +182,6 @@ main nav:nth-of-type(2) li {
 main nav:nth-of-type(2) figure {
     width: 100%;
     background: #f2f7fc;
-    margin: ;
     border-radius: .3em;
     box-shadow: 0px 0px 5px #aaa;
 }
@@ -208,61 +207,146 @@ main nav:nth-of-type(2) li:last-of-type::first-letter {
     font-weight: 900;
 }
 
-main div:nth-of-type(1) {
+main .opmaak {
     display: flex;
     justify-content: center;
     font-size: 1em;
-    padding: .5em 0;
+    padding: 2em 0;
     position: relative;
 }
 
-main div:nth-of-type(1) strong {
+main .opmaak strong {
     color: #f60;
 }
 
-main div:nth-of-type(1) img {
+main .opmaakfoto {
     width: 1.2em;
     vertical-align: middle;
 }
 
-main div:nth-of-type(1) div {
+main .opmaak div {
     flex-grow: 4;
     padding: 0 .5em;
     border-top: .000001em solid #ddd;
     margin: 0 1em;
 }
 
-main div:nth-of-type(1) a {
+main .opmaak a {
     flex-grow: 1;
     text-align: center;
     margin-top: -2.5%;
+}
+
+.opmaak a {
+    color: #000;
+}
+
+/*Begin van eerste producten Best Verkocht*/
+
+main nav:nth-of-type(3), main nav:nth-of-type(5) {
+    padding: .5em;
+}
+
+main nav:nth-of-type(3) ul, main nav:nth-of-type(5) ul{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
     
 }
+
+main nav:nth-of-type(3) li, main nav:nth-of-type(5) li{
+    display: flex;
+    flex-wrap: wrap;
+    width: 15em;
+    flex-shrink: 0;
+    
+}
+
+main nav:nth-of-type(3) figure, main nav:nth-of-type(5) figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main nav:nth-of-type(3) figure img, main nav:nth-of-type(5) figure img{
+    height: 6em;
+    margin: 0 auto;
+}
+
+main nav:nth-of-type(3) figcaption, main nav:nth-of-type(5) figcaption{
+    font-weight: bold;
+    margin-top: .4em;
+    width: .6em;
+    width: 100%;
+}
+
+main nav:nth-of-type(3) b, main nav:nth-of-type(5) b {
+    color: #000;
+}
+
+.stars {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em 0;
+    position: relative;
+    flex-basis: 100%;
+}
+
+.stars img {
+    width: 1em;
+    height: 1em;
+}
+
+main nav:nth-of-type(3) p:last-of-type, main nav:nth-of-type(5) p:last-of-type {
+    color: #000;
+}
+
+.stars p:last-of-type {
+    padding-left: .5em;
+    color: #0090e3!important;
+}
+
+main nav:nth-of-type(4) {
+    overflow-x: scroll;
+}
+
+main nav:nth-of-type(4) img {
+    width: 100%;
+}
+
+main nav:nth-of-type(4) li {
+    margin-right: 2em;
+}
+
+/*Begin footer*/
 
 footer {
 }
 
-footer nav {
+footer nav:nth-of-type(1) {
     background: #0090e3;
 }
 
-footer nav ul {
+footer nav:nth-of-type(1)  ul {
     padding: 0 1em;
     list-style-type: none;
 }
 
-footer ul p {
+footer nav:nth-of-type(1) ul p {
     padding: .8em;
     color: #fff;
 }
 
-footer li {
-    display: flex;
-    justify-content: space-between;
+footer nav:nth-of-type(1) li {
     border-bottom: .002em solid #f2f7fc;
 }
 
-footer nav:first-of-type img {
+footer nav:nth-of-type(1) li a {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav:nth-of-type(1) img {
     width: 1em;
 }
 
@@ -300,10 +384,159 @@ a:hover p{
     text-decoration: underline;
 }
 
+footer nav:nth-of-type(2) {
+    padding: .5em;
+    border-bottom: 2px solid #aaa;
+}
+
+footer nav:nth-of-type(2) ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: .5em;
+    justify-content: center;
+}
+
+footer nav:nth-of-type(2) li {
+    display: flex;
+    margin: .3em 0;
+}
+
+footer nav:nth-of-type(2) img {
+    height: 1.7em;
+    margin-left;
+}
+
+footer nav:nth-of-type(2) li+li {
+    margin-left: 2em;
+}
+
+footer nav:nth-of-type(2) li:last-of-type strong{
+    color:#f60;
+}
+
+footer nav:nth-of-type(2) li:last-of-type a:last-of-type{
+    color:#000;
+    font-size: .8em;
+    align-self: center;
+    margin-left: .5em
+}
+
+footer nav:nth-of-type(2) li:last-of-type img{
+}
+
+footer nav:nth-of-type(2) li:last-of-type{
+}
+
+/*3rd Nav in Footer*/
+
+footer nav:nth-of-type(3) ul {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1em;
+    justify-content: center;
+}
+
+footer nav:nth-of-type(3) li {
+    margin: .3em 0;
+    font-size: .8em;
+    padding: 0 .7em;
+}
+
+footer nav:nth-of-type(3) li+li {
+    border-left: 2px solid #aaa;
+}
+
+/*Copyright*/
+
+.copyright {
+    text-align: center;
+    margin: 1.5em;
+    font-size: .8em;
+}
+
+.copyright:last-of-type {
+    margin: 1em 0 3em 0;
+}
 
 
+/*Voor de animatie*/
+.right {
+    justify-content: center;
+    transition: .5s
+}
 
+.right_two {
+    justify-content: flex-end;
+    transition: .5s;
+}
 
+#animation {
+    transition: .5s;
+}
+
+/*DETAIL PAGINA*/
+
+body .fixedbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.fixedbar form {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    background: #fff;
+    padding: .4em;
+}
+
+.fixedbar button {
+    padding: 1em;
+    margin: 0 .5em;
+    position: relative;
+    border-radius: .5em
+}
+
+.fixedbar button:first-of-type {
+    flex-grow: 6;
+    background: #4fae32;
+    border: 0;
+    box-shadow: 0 2px #347321;
+}
+
+.fixedbar button:last-of-type {
+    flex-grow: 1;
+    z-index: 1;
+    position: relative;
+    background: #fff;
+    border: 1px solid #aaa;
+}
+
+.fixedbar button img {
+    height: 2em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+}
+
+.none {
+    display: none;
+}
+
+#filled {
+    animation-name: popupheart;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes popupheart {
+    0% {height: 2em}
+    50% {height: 2.5em}
+    100% {height: 2em}
+}
 
 
 
