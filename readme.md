@@ -62,11 +62,12 @@ Daarnaast heb ik een opzetje voor pagina 2. Hier ben ik nog niet zo volledig aan
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        | student 5 |
+| Emma      | Jon          | Charlie    | Nine        | Martijn |
 | ---            | ---                | ---          | ---              | --- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    | meer |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker | meer |
-| ...            | ...                | ...          | ...              | ... |
+| Waarop letten bij responsive  | w3c validator             | w3c validator    | w3c validator    | :nth-of-type |
+| font probleem | header probleem | ... | background-image | ... |
+| w3c validator            | ...                | ...          | ...              | ... |
+
 
 ### Verslag van meeting
 
