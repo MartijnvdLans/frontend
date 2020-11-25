@@ -62,12 +62,11 @@ Daarnaast heb ik een opzetje voor pagina 2. Hier ben ik nog niet zo volledig aan
 
 -samen met je groepje opstellen-
 
-| Emma     | Jon          | Charlie    | Nine  | Martijn      |
-| ---            | ---                | ---
-| --- | ---              |
-| Waarop letten bij responsive  | w3c             | w3c validator    | en dan ik dat    | Classes en :nth-of-type    |
-| font probleem | header probleem | nog een punt | dit wil ik zeker | dit wil ik zeker |
-| w3c            | ...                | ...          | ...              | ...      |
+| student 1      | student 2          | student 3    | student 4        | student 5 |
+| ---            | ---                | ---          | ---              | --- |
+| dit bespreken  | en dit             | en ik dit    | en dan ik dat    | meer |
+| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker | meer |
+| ...            | ...                | ...          | ...              | ... |
 
 ### Verslag van meeting
 
