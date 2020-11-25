@@ -54,9 +54,9 @@ De code schrijven zelf vond ik niet bepaald lastig, dus dat was fijn!
 Dit is hoe ver ik op het moment ben. Naar mijn idee is de mobile design van pagina 1 volledig af, tenzij ik nog iets over het hoofd heb gezien, of the elementen niet juist zijn. Hier ga ik nog uitgebreid naar kijken.
 <img src="./images/pagina1.png" width="300px" alt="Pagina 1">
 
-Daarnaast heb ik een opzetje voor pagina 2. Hier ben ik nog niet zo volledig aan begonnen als pagina 1, maar ik heb wel de moeite genomen om alvast een 'add to wishlist' toe te voegen MET animatie.
-
 <img src="./images/pagina2.png" width="300px" alt="Pagina 2">
+
+Daarnaast heb ik een opzetje voor pagina 2. Hier ben ik nog niet zo volledig aan begonnen als pagina 1, maar ik heb wel de moeite genomen om alvast een 'add to wishlist' toe te voegen MET animatie.
 
 ### Agenda voor meeting
 
