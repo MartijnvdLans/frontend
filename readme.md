@@ -71,7 +71,7 @@ Daarnaast heb ik een opzetje voor pagina 2. Hier ben ik nog niet zo volledig aan
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Na mijn eigen vragen te hebben gesteld, is de enige info die ik heb gevraag ennodig heb gehad dat de main eventueel nog wel een id of class mag krijgen. Dit moet Iris alleen nog navragen.
 
 
 
