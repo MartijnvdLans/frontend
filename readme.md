@@ -30,7 +30,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+-dit ging doen & dit was lastig-
+
+...
+
+### Verslag van meeting week 5
+
+Ik kwam naar de meeting met het idee dat ik niet echt iets te vragen had. Dit heb ik ook niet gedaan. Na het laten zien van mijn werk heb ik het gevoel dat ik goed op weg ben.
 
 
 

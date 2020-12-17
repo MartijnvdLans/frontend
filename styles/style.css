@@ -557,9 +557,9 @@ footer nav:nth-of-type(3) li + li {
 
 /*DETAIL PAGINA*/
 
-.detail_page section:nth-of-type(2) {
+.detail_page section {
     padding: .5em;
-    border-bottom: 2px solid #aaa;
+    border-bottom: .1em solid #ccc;
 }
 
 .detail_page section:nth-of-type(2) article:nth-of-type(1) img {
@@ -745,7 +745,6 @@ h1 {
 
 .detail_page section:nth-of-type(3) {
     padding: .5em;
-    border-bottom: 2px solid #aaa;
     margin-top: 1em;
     display: flex;
     flex-wrap: wrap;
@@ -863,6 +862,79 @@ span {
     font-weight: bold;
 }
 
+
+.detail_page section:nth-of-type(4) {
+    padding: .5em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h5 {
+    font-size: 1em;
+    margin: .5em 0;
+    flex-basis: 100%;
+}
+
+.detail_page section:nth-of-type(4)  ul{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: .8em;
+}
+
+.detail_page section:nth-of-type(4) ul li:nth-of-type(odd) span{
+    color: #aaa;
+    border-bottom: 2px dotted #aaa;
+    width: 60%;
+}
+
+.detail_page section:nth-of-type(4) ul li{
+    margin: .5em 0;
+    width: 40%;
+}
+
+.detail_page section:nth-of-type(4) a{
+    flex-basis: 100%;
+    margin: .5em 0;
+}
+
+.detail_page section:nth-of-type(8) ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.detail_page section:nth-of-type(8) ul li {
+    width: 20%;
+    line-height: 1.7em;
+}
+
+.detail_page section:nth-of-type(8) ul li:nth-child(3n+2) {
+    width: 70%;
+    background: #e3e3e3;
+    border-radius: 1em;
+    height: .5em;
+    align-self: center;
+}
+
+.detail_page section:nth-of-type(8) ul li:nth-child(3n+3) {
+    text-align: right;
+    width: 10%;
+}
+
+.detail_page section:nth-of-type(8) ul li:nth-of-type(2) div {
+    background: #00b900;
+    width: 58%;
+    height: .5em;
+    border-radius: 1em;
+}
+
+.detail_page section:nth-of-type(8) ul li:nth-of-type(5) div {
+    background: #00b900;
+    width: 42%;
+    height: .5em;
+    border-radius: 1em;
+}
+
 /*DETAIL ANIMATIE*/
 
 body .fixedbar {
@@ -889,7 +961,7 @@ body .fixedbar {
 
 .fixedbar button:first-of-type {
     flex-grow: 6;
-    background: #4fae32;
+    background: #00b900;
     border: 0;
     box-shadow: 0 2px #347321;
     color: #fff;
