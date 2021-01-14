@@ -24,6 +24,9 @@ Pas toen ik de schermen responsive moest maken werd het echt een drama. De index
 <img src="./images/detailpagina.png" width="300px" alt="Pagina 3.3">
 De detail pagina was echt CHAOS. Ik had het enorm lastig met sommige elementen te plaatsen op de juiste posities. Uiteindelijk ben ik van de indexpagina dan ook niet 100% tevreden met het resultaat.
 
+**Toegangkelijkheid**
+Met de tab knop heb ik gekeken hoe de toegangkelijkheid van dit document is. Zo kwam ik er achter dat een screenreader vrijwel langs alle elementen komt, waar ik heel blij mee was. Ook kun je bij alle formulieren, linkjes en knoppen komen.
+
 
 
 ## Voortgang 3 (week 6)
