@@ -6,9 +6,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. Afbeeldingen zijn geraadpleegd van Coolblue.nl
 
 
 
@@ -17,8 +15,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 -dit ging goed & dit was lastig-
 
 **Screenshot(s):**
+<img src="./images/indexheel.png" width="300px" alt="Pagina 3.1">
+In de vakantie heb ik mijn mobiele schermen af kunnen maken, wat super fijn was en ik ook niet echt lastig vond! Ik vond het superleuk om bij 'alternatieven' een table te moeten gebruiken, omdat ik hier niet vaak mee heb gewerkt! Het ging me wel makkelijk af dus dat was fijn!
 
--screenshot(s) van je eindresultaat-
+<img src="./images/coolbluer.png" width="300px" alt="Pagina 3.2">
+Pas toen ik de schermen responsive moest maken werd het echt een drama. De index pagina was wel oké om te doen en had ik ook wel snel af, ondanks dat de footer echt een hele klus was. Ik vond het super vervelend om midden in een code nieuwe elementen toe te voegen omdat we gebruik maken van paden. Normaal kun je zo wat toevoegen, maar als je dat nu doet loop je nog wel eens het risico dat je hele code omslaat.
+
+<img src="./images/detailpagina.png" width="300px" alt="Pagina 3.3">
+De detail pagina was echt CHAOS. Ik had het enorm lastig met sommige elementen te plaatsen op de juiste posities. Uiteindelijk ben ik van de indexpagina dan ook niet 100% tevreden met het resultaat.
 
 
 
@@ -26,11 +30,19 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -same as voortgang 1-
 
+In week 6 had ik eigenlijk niks extra's gedaan en had de voortgang voor mij dus ook niet veel nut.
+
 
 
 ## Voortgang 2 (week 5)
 
 -dit ging doen & dit was lastig-
+
+**Screenshot(s):**
+<img src="./images/indexhalf.png" width="300px" alt="Pagina 2.1">
+Voor deze week had ik de index pagina een beetje onderschat en was ik er best laat aan begonnen. Hierdoor had ik maar de helf afgekregen voor deze feedback ronde.
+
+Het schrijven van deze code vond ik iets lastiger dan de index, maar was nog niet heel moeilijk naar mijn idee!
 
 ...
 
