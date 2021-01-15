@@ -8,6 +8,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 1. Afbeeldingen zijn geraadpleegd van Coolblue.nl
 
+## Link naar de website
+
+https://martijnvdlans.github.io/frontend
+
 
 
 ## Eindgesprek (week 7/8)

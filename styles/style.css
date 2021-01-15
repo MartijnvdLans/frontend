@@ -28,6 +28,7 @@ header {
     z-index: 10;
 }
 
+/*HIER BEGINT DE OPMAAK VOOR DE MAIN NAV*/
 header nav:nth-of-type(1) {
     display: flex;
     flex-basis: 100%;
@@ -78,6 +79,7 @@ header img {
     display: flex;
 }
 
+/*HIER BEGINT DE OPMAAKT VOOR HET FORMULIER IN DE NAVIGATIE*/
 header form {
     width: 100%;
     background: #f2f7fc;
@@ -102,7 +104,7 @@ header button {
     padding: 5px 10px;
 }
 
-/*Begin Menu*/
+/*HIER BEGINT DE OPMAAK VAN HET JAVASCRIPT UITKLAPMENU*/
 
 header nav:nth-of-type(2) {
     position: absolute;
@@ -176,6 +178,8 @@ main {
     padding-top: 6em;
 }
 
+/*Dit deel is de opmaak voor de sliders voor de javascript slider net onder de header en de slider van thuiswerkwinkel advertentie*/
+
 main nav:nth-of-type(1),
 .index section:nth-of-type(4) {
     width: 100%;
@@ -235,6 +239,7 @@ main nav:nth-of-type(1) li:nth-of-type(6) {
     width: 100%;
 }
 
+/*Hier begint de opmaak voor de slider onder de banner.*/
 .index section:first-of-type {
     display: flex;
     flex-direction: row;
@@ -273,6 +278,7 @@ a {
     color: #0090e3;
 }
 
+/*Hier begint de opmaak voor de navigatiemenu van de catagoriën*/
 .index section:nth-of-type(2) li {
     width: 46%;
     margin: .4em 0;
@@ -313,6 +319,8 @@ a {
 .index section:nth-of-type(2) li:last-of-type::first-letter {
     font-weight: 900;
 }
+
+/*Opmaak voor de divider*/
 
 .index .opmaak {
     display: flex;
@@ -741,6 +749,8 @@ h1 {
 
 }
 
+/*Hier begint de opmaak voor her kiezen van een service*/
+
 .detail_page section:nth-of-type(2) article:nth-of-type(5) {
     display: flex;
     flex-wrap: wrap;
@@ -969,7 +979,7 @@ h1 {
     text-align: center;
 }
 
-
+/*Beknopte specificaties*/
 .detail_page section:nth-of-type(4) {
     padding: .5em;
     display: flex;
@@ -1004,6 +1014,7 @@ h5 {
     margin: .5em 0;
 }
 
+/*PLus en minpunten*/
 .detail_page section:nth-of-type(5) li {
     display: flex;
     justify-content: flex-start;
@@ -1018,11 +1029,13 @@ h5 {
     align-self: flex-start;
 }
 
+/*Omschijving*/
 .detail_page section:nth-of-type(6) p {
     font-size: .9em;
     margin-bottom: 1em
 }
 
+/*Standaard meegeleverd*/
 .detail_page section:nth-of-type(7) {
     font-size: .9em;
     margin-bottom: 1em
@@ -1055,6 +1068,7 @@ h5 {
     display: none;
 }
 
+/*Reviews*/
 .detail_page section:nth-of-type(8) div {
     display: flex;
 }
@@ -1178,6 +1192,7 @@ h5 {
     color: #aaa;
 }
 
+/*5 jaar zorgeloos wassen*/
 .detail_page section:nth-of-type(10) div {
     display: flex;
 }
@@ -1208,6 +1223,7 @@ h5 {
     display: none;
 }
 
+/*Gerelateerde producten*/
 .detail_page section:nth-of-type(11) ul {
     display: flex;
     overflow-x: scroll;
@@ -1229,6 +1245,7 @@ h5 {
     border-radius: 5em;
 }
 
+/*Alternatieven table*/
 .detail_page section:nth-of-type(12) table {
     display: flex;
     width: 100%;
@@ -1340,11 +1357,13 @@ strike {
     margin-right: .1em;
 }
 
+/*Gerelateerde producten lijst*/
 .detail_page section:nth-of-type(13) a {
     padding: .5em 0;
     display: block;
 }
 
+/*Inloggen blok*/
 .detail_page section:nth-of-type(14) div {
     background: #f2f7fc;
     padding: 1em;
