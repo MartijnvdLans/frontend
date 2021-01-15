@@ -246,6 +246,7 @@ main nav:nth-of-type(1) li:nth-of-type(6) {
 
 .index section:first-of-type img {
     width: 100%;
+    align-self: center;
 }
 
 .index section:nth-of-type(2) ul {
@@ -422,6 +423,7 @@ a {
 
 .index section:nth-of-type(4) img {
     width: 100%;
+    align-self: center;
 }
 
 .index section:nth-of-type(4) li {
@@ -471,7 +473,6 @@ footer .opmaak_footer section:nth-of-type(1) li a {
 
 footer  .opmaak_footer img {
     width: 1em;
-    max-height: 1em;
     align-self: center;
 }
 
