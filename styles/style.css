@@ -202,7 +202,8 @@ main nav:nth-of-type(1) li,
 
 main nav:nth-of-type(1) img {
     width: 1.2em;
-    margin: 0 .5em
+    margin: 0 .5em;
+    align-self: center;
 }
 
 main nav:nth-of-type(1) a {
@@ -470,6 +471,7 @@ footer .opmaak_footer section:nth-of-type(1) li a {
 
 footer  .opmaak_footer img {
     width: 1em;
+    align-self: center;
 }
 
 footer section .coolbluedude {
